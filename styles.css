@@ -66,10 +66,12 @@ main {
     align-items: center;
 }
 
-.search-icon {
+.search-bar label {
     width: 40px;
     height: 40px;
     margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 
 input[type='search'] {
@@ -88,9 +90,9 @@ input[type='search'] {
     align-items: center;
 }
 
-.notification-icon {
-    height: 30px;
-    width: 30px;
+.notification svg {
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .header-pic1 {
@@ -168,14 +170,9 @@ input[type='search'] {
     color: #9500f8
 }
 
-.left-aside-header img {
-    width: 60px;
-}
-
-.aside-nav img,
-.setting-nav {
-    width: 30px;
-
+.aside-nav svg,
+.setting-nav  svg{
+    cursor: pointer;
 }
 
 .aside-nav h2,
@@ -239,9 +236,9 @@ main h2 {
     justify-content: end;
     display: flex;
 }
-.card-icons img {
-    width: 25px;
+.card-icons svg {
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .card:hover {
